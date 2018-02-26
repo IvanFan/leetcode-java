@@ -9,8 +9,8 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Test start");
-        FindAnagramMappings test = new FindAnagramMappings();
-        int result = test.anagramMappings.("aA", "aAAbbbb");
+        MaxAreaOfIsland test = new MaxAreaOfIsland();
+        int result = test.maxAreaOfIsland();
         System.out.print(result);
     }
 
