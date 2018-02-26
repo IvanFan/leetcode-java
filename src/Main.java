@@ -5,13 +5,16 @@ import LeecodeEasyQ.ValidAnagram;
 import LeecodeEasyQ.pascal;
 import LeetCodeArray.EasyQuestions.*;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
         System.out.println("Test start");
-        MaxAreaOfIsland test = new MaxAreaOfIsland();
-        int result = test.maxAreaOfIsland();
-        System.out.print(result);
+        WiggleSort test = new WiggleSort();
+        int[] nums =new int[] {3, 5, 2, 1, 6, 4};
+        test.wiggleSort(nums);
+        System.out.print(Arrays.toString(nums));
     }
 
 }
